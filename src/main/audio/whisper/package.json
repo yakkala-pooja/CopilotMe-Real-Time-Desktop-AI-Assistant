@@ -1,0 +1,17 @@
+{
+  "name": "whisper-native",
+  "version": "1.0.0",
+  "description": "Native bindings for Whisper.cpp",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "install": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.1"
+  },
+  "gypfile": true
+} 
